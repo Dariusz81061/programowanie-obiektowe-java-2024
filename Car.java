@@ -15,6 +15,12 @@ public class Car {
         this.year = 2018;
     }
 
+    Car(String color, int year) {
+        this.name = "Mercedes";
+        this.color = color;
+        this.year = year;
+    }
+
     public String InfoCar() {
         return "Name: " + name + ", " +
                 "Color: " + color + ", " +
