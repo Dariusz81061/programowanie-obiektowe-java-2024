@@ -1,4 +1,4 @@
-public class Car {
+public class Car extends BaseAbstract implements CarInterface {
     private String name;
     private String color;
     private int year;
@@ -7,6 +7,7 @@ public class Car {
         this.name = "Mercedes";
         this.color = "Red";
         this.year = 2018;
+        this.setSurName("Kowalska");
     }
 
     Car(String color) {
@@ -24,6 +25,11 @@ public class Car {
     public String InfoCar() {
         return "Name: " + name + ", " +
                 "Color: " + color + ", " +
-                "Year: " + year;
+                "Year: " + year + ", " +
+                "SurName: " + getSurName();
+    }
+    @Override
+    public String InfoPerson() {
+        return "";
     }
 }
