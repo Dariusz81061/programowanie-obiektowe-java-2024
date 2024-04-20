@@ -13,7 +13,7 @@ public class Main {
 
         // Bardzo zła praktyka
         Car car4 = car3;
-        // odkomentowanie spowoduje nadpisanie year w obiekcie car
+        // odkomentowanie spowoduje nadpisanie year w obiekcie car3
         // car4.year = 1988;
 
         System.out.println(car3.InfoCar());
