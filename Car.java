@@ -1,7 +1,7 @@
 public class Car extends BaseAbstract implements CarInterface {
     private String name;
     private String color;
-    private int year;
+    public int year;
 
     Car() {
         this.name = "Mercedes";
