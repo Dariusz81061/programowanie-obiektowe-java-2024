@@ -9,6 +9,12 @@ public class Car {
         this.year = 2018;
     }
 
+    Car(String color) {
+        this.name = "Mercedes";
+        this.color = color;
+        this.year = 2018;
+    }
+
     public String InfoCar() {
         return "Name: " + name + ", " +
                 "Color: " + color + ", " +

@@ -4,5 +4,8 @@ public class Main {
 
         Car car = new Car();
         System.out.println(car.InfoCar());
+
+        Car car2 = new Car("Różowy");
+        System.out.println(car2.InfoCar());
     }
 }
